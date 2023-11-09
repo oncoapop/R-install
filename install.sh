@@ -3,6 +3,7 @@
 # Install the dependencies
 sudo apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
 sudo apt-get install libcurl4-openssl-dev
+sudo apt-get install libssl-dev
 
 # Add the CRAN repository to your system sources’ list
 sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
